@@ -1,6 +1,7 @@
 #theme: jekyll-theme-merlot
 #theme: jekyll-theme-so-simple
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
+theme: minima
+#remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 title: "Une Petite Chouette 2020"
 description: "The beginning of a website.. SocialData2020"
