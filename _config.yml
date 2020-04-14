@@ -14,11 +14,3 @@ iframe {
     height: 100%;
     width: 100%;
 }
-
-retailbox {
-    border: solid #a08db7;
-    position: absolute;
-    height: 90%;
-    width: 90%;
-
-}
