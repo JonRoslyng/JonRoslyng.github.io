@@ -1,74 +1,56 @@
-#theme: jekyll-theme-merlot
-#theme: jekyll-theme-so-simple
-#theme: minima
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-skin: "/assets/css/skins/default.css"
-#title: "Une Petite Chouette 2020"
-description: "SocialData2020"
-# iframe {
-#     position: absolute;
-#     top: 0;
-#     bottom: 0;
-#     left: 0;
-#     right: 0;
-#     height: 100%;
-#     width: 100%;
-# }
 
-body {
-      font-family: "Times New Roman", Times, serif;
-}
-# theme: jekyll-theme-so-simple
-# # remote_theme: mmistakes/so-simple-theme
-# skin: "/assets/css/skins/default.css"
-# locale: en-US
-# title: "My Awesome Site"
-# description: "It really is the best."
 
-liquid:
-  error_mode: strict
+title: En Ugle
+description: >- # this means to ignore newlines until "baseurl:"
+  En Lille Ugle
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 # Build settings
-permalink: /:categories/:title/
-markdown: kramdown
-feed:
-  path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
-
-# Search
-search_full_content: false # can have performance implications for large sites
-
-# Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+theme: minima
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
 
-# Front Matter Defaults
-defaults:
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
+
+# remote_theme: "mmistakes/so-simple-theme@3.2.0"
+# skin: "/assets/css/skins/default.css"
+# #title: "Une Petite Chouette 2020"
+# description: "SocialData2020"
+#
+#
+# body {
+#       font-family: "Times New Roman", Times, serif;
+# }
+#
+#
+# liquid:
+#   error_mode: strict
+#
+# # Build settings
+# permalink: /:categories/:title/
+# markdown: kramdown
+# feed:
+#   path: atom.xml
+#
+#
+# # Search
+# search_full_content: false # can have performance implications for large sites
+#
+#
+#
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+#   - jekyll-feed
+#   - jekyll-paginate
+#
+# # Front Matter Defaults
+# defaults:
+#   # Posts defaults
+#   - scope:
+#       path: "_posts"
+#       type: posts
+#     values:
+#       layout: post
+#       share: true
