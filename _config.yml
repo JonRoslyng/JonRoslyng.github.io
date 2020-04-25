@@ -4,7 +4,7 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 title: "Une Petite Chouette 2020"
-description: "The beginning of a website.. SocialData2020"
+description: "SocialData2020"
 # iframe {
 #     position: absolute;
 #     top: 0;
