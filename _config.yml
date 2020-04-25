@@ -3,7 +3,7 @@
 #theme: minima
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
-title: "Une Petite Chouette 2020"
+#title: "Une Petite Chouette 2020"
 description: "SocialData2020"
 # iframe {
 #     position: absolute;
